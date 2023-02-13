@@ -1,0 +1,36 @@
+.navbar {
+    position: fixed;
+    width: 90vw;
+    top: 0;
+    padding: 0 5%;
+    height: 70px;
+    color: var(--white);
+    background-color: var(--transparent-black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h2 {
+    font-size: 30px;
+}
+
+.navbar-list-container {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.navbar-list-container li{
+    display: flex;
+    list-style-type: none;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.navbar-list-container li:hover {
+    cursor: pointer;
+    color: var(--secondary-color);
+    text-decoration: line-through;
+}
