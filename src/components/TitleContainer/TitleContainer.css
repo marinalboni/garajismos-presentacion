@@ -1,0 +1,29 @@
+.title-container {
+  padding: 1rem 0;
+  width: 100%;
+  margin: auto;
+  border-bottom: 4px solid var(--secondary-color);
+  border-top: 4px solid var(--secondary-color);
+  background-color: var(--black);
+  overflow-x: hidden;
+}
+
+.target {
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--white);
+  animation-name: rightToLeft;
+  animation-duration: 7.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-160px);
+  }
+}
