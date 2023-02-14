@@ -6,8 +6,8 @@ function TitleContainer({ title, borderColor, bgColor, textColor }) {
     };
 
     return (
-        <div class="title-container">
-            <p style={textStyle} class="target">{ title }</p>
+        <div className="title-container">
+            <p style={textStyle} className="target">{ title }</p>
         </div>
     );
 }

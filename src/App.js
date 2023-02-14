@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomeView />} />
-        <Route path="/historia" element={<HistoryView />} />
+        <Route path="/history" element={<HistoryView />} />
       </Routes>
       <Footer />
     </div>

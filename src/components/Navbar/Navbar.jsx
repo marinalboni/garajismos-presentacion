@@ -21,6 +21,7 @@ function Navbar() {
                 <li>
                     <Link className="nav-link" to="/history">FOTOS</Link>
                 </li>
+                
             </ul>
         </div>
     );
