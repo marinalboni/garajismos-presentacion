@@ -20,6 +20,7 @@
     list-style-type: none;
     gap: 30px;
     flex-wrap: wrap;
+    padding: 0;
 }
 
 .nav-link {
@@ -34,4 +35,18 @@
     cursor: pointer;
     color: var(--secondary-color);
     text-decoration: line-through;
+}
+
+@media (max-width: 800px) {
+    .navbar h2 {
+        display: none;
+    }
+
+    .navbar-list-container {
+        gap: 10px;
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
 }
