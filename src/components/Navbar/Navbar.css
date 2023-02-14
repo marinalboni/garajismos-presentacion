@@ -22,14 +22,15 @@
     flex-wrap: wrap;
 }
 
-.navbar-list-container li{
+.nav-link {
     display: flex;
-    list-style-type: none;
+    color: var(--white);
+    text-decoration: none;
     font-size: 22px;
     font-weight: 700;
 }
 
-.navbar-list-container li:hover {
+.nav-link:hover {
     cursor: pointer;
     color: var(--secondary-color);
     text-decoration: line-through;

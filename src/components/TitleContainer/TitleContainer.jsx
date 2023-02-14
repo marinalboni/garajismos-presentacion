@@ -1,9 +1,13 @@
 import './TitleContainer.css';
 
-function TitleContainer({ title }) {
+function TitleContainer({ title, borderColor, bgColor, textColor }) {
+    const textStyle = {
+        'color': `${textColor}`
+    };
+
     return (
         <div class="title-container">
-            <p class="target">{ title }</p>
+            <p style={textStyle} class="target">{ title }</p>
         </div>
     );
 }
