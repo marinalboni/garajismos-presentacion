@@ -35,6 +35,11 @@ function EarlyLife() {
             lat: 40.408300,
             lng: -3.699980
         },
+        {
+            address: 'Buenos Aires',
+            lat: -34.477173,
+            lng: -58.522105
+        }
     ]
 
     return (
