@@ -10,7 +10,7 @@
 
 .footer ul{
     list-style-type: none;
-    padding: none;
+    padding: 0;
 }
 
 .footer li {
