@@ -1,0 +1,36 @@
+.qa {
+    background-color: var(--secondary-color);
+    padding-top: 70px;
+}
+
+.qa-info {
+    padding: 50px 5% 100px 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+.qa-divs {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+
+.qa-number {
+    font-size: 90px;
+    margin: 0;
+}
+
+.qa-div {
+    display: flex;
+    gap: 30px;
+}
+
+@media (max-width: 800px) {
+    .qa-number {
+        display: none;
+    }
+}

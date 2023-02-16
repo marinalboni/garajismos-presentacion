@@ -16,10 +16,10 @@ function Navbar() {
                     <Link className="nav-link" to="/hobbies">HOBBIES</Link>
                 </li>
                 <li>
-                    <Link className="nav-link" to="/history">MÚSICA</Link>
+                    <Link className="nav-link" to="/music">MÚSICA</Link>
                 </li>
                 <li>
-                    <Link className="nav-link" to="/history">FOTOS</Link>
+                    <Link className="nav-link" to="/photos">FOTOS</Link>
                 </li>
                 
             </ul>
