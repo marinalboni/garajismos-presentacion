@@ -24,6 +24,10 @@
     transition: all .5s ease-in-out; 
 }
 
+.family-card p {
+    color: white;
+}
+
 .family-card:hover {
     transform: scale(1.15);
     background-color: rgba(0, 0, 0, 0.945);

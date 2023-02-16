@@ -6,7 +6,7 @@ function QA() {
         <div className="qa">            
             <TitleContainer 
             title={"Q&A"}
-            textColor={'var(--black)'}
+            textColor={'var(--secondary-color)'}
             />
             <div className="qa-info">
                <div className="qa-divs">

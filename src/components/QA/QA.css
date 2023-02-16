@@ -1,5 +1,5 @@
 .qa {
-    background-color: var(--secondary-color);
+    background-color: var(--transparent-black);
     padding-top: 70px;
 }
 
@@ -10,6 +10,7 @@
     align-items: center;
     gap: 5%;
     flex-wrap: wrap;
+    color: var(--white)
 }
 
 .qa-divs {
@@ -17,6 +18,10 @@
    display: flex;
    flex-direction: column;
    gap: 30px;
+}
+
+.qa-divs h3 {
+    color: var(--secondary-color)
 }
 
 .qa-number {
