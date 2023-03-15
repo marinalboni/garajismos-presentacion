@@ -1,0 +1,100 @@
+.photo {
+    background-color: var(--black);
+    height: 712px;
+}
+
+.iphone {
+    margin-top: 30px;
+    width: 360px;
+    height: 650px;
+    background: #f9f7f9;
+    border: 5px solid #c1bfc1;
+    border-radius: 45px;
+    opacity: 0.8;
+    position: relative;
+}
+  
+.circle {
+    width: 11px;
+    height: 11px;
+    background: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: -745px;
+    left: 175px;
+}
+  
+.camera {
+    width: 14px;
+    height: 14px;
+    background: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 116px;
+}
+  
+.speaker {
+    width: 61px;
+    height: 6px;
+    background: #333;
+    border-radius: 5px;
+    position: absolute;
+    top: 25px;
+    left: 151px; 
+}
+  
+.screen {
+    width: 326px;
+    height: 510px;
+    border: 3px solid #333;
+    border-radius: 5px;
+    position: absolute;
+    left: 15px;
+    top: 50px;    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}  
+  
+.home1 {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    left: 155px;
+    z-index: 2;
+}
+  
+.home2 {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 16px;
+    left: 151px;
+    background: #7f8282;
+    background: -webkit-linear-gradient(#e2e3e4, #7f8282);
+    background: -o-linear-gradient(#e2e3e4, #7f8282);
+    background: -moz-linear-gradient(#e2e3e4, #7f8282);
+    background: linear-gradient(#e2e3e4, #7f8282);
+}
+
+.right, .left {
+    position: absolute;
+    top: 300px;
+}
+
+.right:hover, .left:hover {
+    cursor: auto;
+}
+
+.left {
+    left: 30px;
+}
+
+.right {
+    right: 30px;
+}

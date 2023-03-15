@@ -1,0 +1,11 @@
+.music-view {
+    background-color: var(--black);
+    padding: 100px 0 70px 0;
+    min-height: 770px;
+}
+
+.flex {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}

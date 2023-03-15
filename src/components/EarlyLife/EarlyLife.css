@@ -1,4 +1,47 @@
 .early-life {
     background-color: var(--secondary-color);
-    padding: 70px 0;
+    padding: 100px 0 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.early-life-info {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.early-life-div {
+    width: 100%;
+}
+
+.hr-lines-after {
+    position: relative;
+    width: 100%;
+}
+
+.hr-lines-after:after {
+    content:" ";
+    height: 2px;
+    width: 90%;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+@media (max-width: 600px) {
+    .hr-lines-after:after {
+        width: 75%;
+    } 
+}
+
+.early-life-div p {
+    padding: 0 30px;
 }

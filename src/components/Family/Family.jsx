@@ -36,7 +36,7 @@ function Family() {
                 </div>
                 <div className="family-card">
                     <h3>Rafael + Karla</h3>
-                    <p>Hermano y su mujer</p>
+                    <p>Hermano y cuñada</p>
                     <div className="family-img-container" style={{'backgroundImage': `url(${rafa})`}}>
                     </div>
                 </div>

@@ -1,57 +1,42 @@
-import Map from "../Map/Map";
 import TitleContainer from "../TitleContainer/TitleContainer";
 import'./EarlyLife.css';
 
 function EarlyLife() {
-
-    const myCities = [
-        {
-            address: 'Curitiba',
-            lat: -25.451414,
-            lng: -49.283618
-        },
-        {
-            address: 'Balneário Camboriu',
-            lat: -26.992398,
-            lng: -48.633810
-        },
-        {
-            address: 'Recife',
-            lat: -8.175865,
-            lng: -34.921374
-        },
-        {
-            address: 'Tahoe City',
-            lat: 39.166300,
-            lng: -120.146585
-        },
-        {
-            address: 'Myrtle Beach',
-            lat: 33.713151,
-            lng: -78.872695
-        },
-        {
-            address: 'Madrid',
-            lat: 40.408300,
-            lng: -3.699980
-        },
-        {
-            address: 'Buenos Aires',
-            lat: -34.477173,
-            lng: -58.522105
-        }
-    ]
-
     return (
         <div className="early-life">            
             <TitleContainer 
-            title="EARLY LIFE"
-            textColor='var(--black)'
+            title="LIFE"
+            textColor='var(--white)'
             />
             <div className="early-life-info">
-                <Map 
-                arrayOfCities = {myCities}
-                />
+                <div className="early-life-div">
+                    <h5 className="hr-lines-after">1993</h5>
+                    <p>Nacida el 10 de Mayo en Curitiba, Brasil</p>
+                </div>
+                <div className="early-life-div">
+                    <h5 className="hr-lines-after">2000</h5>
+                    <p>Se mudó a Recife con su família por el trabajo de su papá</p>
+                </div>
+                <div className="early-life-div">
+                    <h5 className="hr-lines-after">2001</h5>
+                    <p>Vuelve a Curitiba, por donde se queda más 5 años.</p>
+                </div>
+                <div className="early-life-div">
+                    <h5 className="hr-lines-after">2006</h5>
+                    <p>Se muda para Balneário Camboriú.</p>
+                </div>
+                <div className="early-life-div">
+                    <h5 className="hr-lines-after">2009/2012</h5>
+                    <p>Intercambios en EEUU - el primero en Myrtle Beach, y el segundo en Tahoe City.</p>
+                </div>
+                <div className="early-life-div">
+                    <h5 className="hr-lines-after">2017</h5>
+                    <p>Se muda a Buenos Aires con sus padres.</p>
+                </div>
+                <div className="early-life-div">
+                    <h5 className="hr-lines-after">2018</h5>
+                    <p>Se muda a Madrid, donde sigue viviendo hasta el momento.</p>
+                </div>
             </div>
         </div>
     );

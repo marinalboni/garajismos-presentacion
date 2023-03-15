@@ -4,6 +4,8 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import HomeView from './views/HomeView/HomeView';
 import HistoryView from './views/HistoryView/HistoryView';
+import PhotosView from './views/PhotosView/PhotosView';
+import MusicView from './views/MusicView/MusicView';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomeView />} />
         <Route path="/history" element={<HistoryView />} />
+        <Route path="/photos" element={<PhotosView />} />
+        <Route path="/music" element={<MusicView />} />
       </Routes>
       <Footer />
     </div>
