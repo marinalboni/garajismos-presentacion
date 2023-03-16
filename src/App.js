@@ -6,6 +6,7 @@ import HomeView from './views/HomeView/HomeView';
 import HistoryView from './views/HistoryView/HistoryView';
 import PhotosView from './views/PhotosView/PhotosView';
 import MusicView from './views/MusicView/MusicView';
+import HobbiesView from './views/HobbiesView/HobbiesView';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/history" element={<HistoryView />} />
         <Route path="/photos" element={<PhotosView />} />
         <Route path="/music" element={<MusicView />} />
+        <Route path="/hobbies" element={<HobbiesView />} />
       </Routes>
       <Footer />
     </div>
